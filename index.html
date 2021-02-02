@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>johny</title>
+    <!--iconos-->
+    <link rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--stilos-->
+        <link rel="stylesheet" href="css/stilos.css">
+    
+    </head>
+
+<body>
+   <div class="wrapper">
+
+<!--BANNER-->
+<div class="banner-wrapper">
+
+    <header>
+        <div class="header-inner">
+            <a href="index.html" id="logo">
+                <img src="img/pics/logo.jpg" alt="johny">
+            </a>
+            <nav>
+                <a href="#" id="menu-icon">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#porfolio">Fotos</a>
+                    </li>
+                    <li>
+                        <a href="#service">Servicio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contactos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--imagenes-->
+<section class="slide.wrap">
+<ul class="slider1">
+      <li><img src="img/slider/imagen1.jpg" alt="arte"></li> 
+      <li><img src="img/slider/imagen2.jpg" alt="arte"></li>
+      <li><img src="img/slider/imagen3.jpg" alt="arte"></li>
+      <li><img src="img/slider/imagen4.jpg" alt="arte"></li>
+    </ul>
+  </section>
+ </div>   
+</div>
+
+
+
+<section class="one-third" id="skills">
+      <div class="icon-wrap">
+        <i class="fa fa-desktop"></i>
+      </div>
+      <h3>Arte</h3>
+      <p>Actividad en la que el hombre recrea, con una finalidad estética, un aspecto de la realidad o un sentimiento en formas bellas valiéndose de la materia.</p>
+    </section>
+
+    <section class="one-third" id="skills">
+        <div class="icon-wrap">
+          <i class="fa fa-pencil-square"></i>
+        </div>
+        <h3> Cultura</h3>
+        <p>Conjunto de conocimientos e ideas no especializados adquiridos gracias al desarrollo de las facultades intelectuales, mediante la lectura, el estudio y el trabajo.</p>
+      </section>
+
+      <section class="one-third" id="skills">
+        <div class="icon-wrap">
+          <i class="fa fa-file-code-o"></i>
+        </div>
+        <h3>Diseño</h3>
+        <p>Actividad creativa que tiene por fin proyectar objetos que sean útiles y estéticos</p>
+      </section>
+
+<div class="one-third-padding" id="servicios">
+    <h3>Arte</h3>
+    <img src="img/pics/imagen1.jpg">
+    <p>El arte es toda aquella creación y representación realizada por el hombre que intenta expresar y mostrar una percepción sentimental sobre su mundo, mostrando diferentes sentimientos, emociones, ideas y puntos de vista.</p>
+</div>
+<div class="one-third-padding" id="servicios">
+    <h3>Diseño </h3>
+    <img src="img/pics/imagen2.jpg">
+    <p>El diseño​ se define como el proceso previo de configuración mental, «prefiguración», en la búsqueda de una solución en cualquier campo. Se aplica habitualmente en el contexto de la industria, ingeniería, arquitectura, comunicación y otras disciplinas que requieren creatividad</p>
+</div>
+
+<div class="one-third-padding" id="servicios">
+    <h3>Cultura </h3>
+    <img src="img/pics/imagen3.jpg  ">
+    <p>La palabra cultura ha tenido diferentes significados a lo largo de la historia. En primera instancia se asociaba a las técnicas del cultivo. Por ejemplo, era habitual escuchar las técnicas de cultura son escasamente productivas. Posteriormente, se utilizó para destacar los conocimientos que alguien poseía para tener un juicio crítico y elaborado con respecto a una temática concreta</p>
+</div>
+
+<footer>
+    <div class="banner-wrapper">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <ul class="footer-nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Skills</a>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">Our Team</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icon-text-text">
+          <ul class="social">
+            <li>
+              <a href="mailto:contact@faztweb.com" target="_blank">
+                <i class="fa fa-envelope-o"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://facebook.com/fazttech" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://twitter.com/fazttech" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://youtube.com/fazttech" target="_blank">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-instagram" target="_blank"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <footer class="second-footer">
+
+  <p>
+      &copy; JohnyColina.com
+  </p>
+
+  </footer>
+
+
+
+    <!--scripts-->
+    <script>
+        $(document).ready(function(){
+          $('.slider1').bxSlider({
+            mode: 'fade',
+          });
+          $('.slider2').bxSlider({
+            mode: 'fade',
+          });
+          $('.slider3').bxSlider({
+            mode: 'fade',
+          });
+
+          $('.slider4').bxSlider({
+            mode: 'fade',
+          });
+        });
+      </script>
+</body>
+
+
+</html>
